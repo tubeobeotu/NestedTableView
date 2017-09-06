@@ -1,0 +1,57 @@
+//
+//  NVT_NestedProtocol.h
+//  NVT_NestedCollectionView
+//
+//  Created by Nguyen Van Tu on 9/6/17.
+//  Copyright © 2017 Nguyen Van Tu. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+typedef enum : NSInteger{
+    SectionType_Collection = 0,
+    SectionType_TableView
+}SectionType;
+@protocol NVT_NestedMainProtocol <NSObject>
+
+//Data
+- (NSInteger)numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell *)cellTableForRowAtIndexPath:(NSIndexPath *)indexPath;
+@optional
+- (NSInteger)numberOfSections;
+
+@end
+@protocol NVT_NestedProtocol <NSObject>
+//Data
+- (NSInteger)subCellNumberOfRowsInSection:(NSInteger)section;
+@optional
+- (NSInteger)currentSection;
+- (NSInteger)subCellNumberOfSections;
+
+//Delegate
+- (void)subCellDidSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+- (void)subCellDidDeselectRowAtIndexPath:(NSIndexPath *)indexPath NS_AVAILABLE_IOS(3_0);
+@end
+
+@protocol NVT_NestedProtocolTableView <NVT_NestedProtocol>
+//DataSource
+//- (UITableViewCell *)subCellCellTableForRowAtIndexPath:(NSIndexPath *)indexPath;
+
+@optional
+//Delegate
+- (CGFloat)subCellHeightForRowAtIndexPath:(NSIndexPath *)indexPath;
+- (CGFloat)subCellEstimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath NS_AVAILABLE_IOS(7_0);
+
+
+@end
+
+@protocol NVT_NestedProtocolCollectionView <NVT_NestedProtocol>
+//DataSource
+//- (UICollectionViewCell *)subCellCellCollectionForRowAtIndexPath:(NSIndexPath *)indexPath;
+
+@optional
+//Delegate
+- (BOOL)isHorizontalScroll:(NSInteger)section;
+- (CGSize)subCellSizeForItemAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
