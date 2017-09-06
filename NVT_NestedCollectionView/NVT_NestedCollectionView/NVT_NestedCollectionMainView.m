@@ -111,7 +111,7 @@
 #pragma mark NVT_NestedProtocol
 - (PA_Treding_Model *)getModelAt:(NSIndexPath *)index
 {
-    return @"";
+    return [self.delegate getModelAt:index];
 }
 - (NSInteger)subCellNumberOfRowsInSection:(NSInteger)section
 {

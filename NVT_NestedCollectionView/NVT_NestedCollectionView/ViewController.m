@@ -28,6 +28,10 @@
 }
 
 #pragma mark NVT_NestedMainProtocol
+- (PA_Treding_Model *)getModelAt:(NSIndexPath *)index
+{
+    return @"";
+}
 - (NSString *)title:(NSInteger)section
 {
     return @"Tea";
