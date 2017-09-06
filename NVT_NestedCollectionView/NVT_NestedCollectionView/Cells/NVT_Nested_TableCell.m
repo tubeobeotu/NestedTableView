@@ -30,6 +30,10 @@
 
 
 #pragma mark NVT_NestedProtocolTableView
+- (PA_Treding_Model *)getModelAt:(NSIndexPath *)index
+{
+    return [self.delegate getModelAt:index];
+}
 - (NSInteger)currentSection
 {
     return self.section;

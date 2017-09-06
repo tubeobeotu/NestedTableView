@@ -28,6 +28,17 @@
 }
 
 #pragma mark NVT_NestedMainProtocol
+- (NSString *)title:(NSInteger)section
+{
+    return @"Tea";
+}
+- (CGFloat)heightForHeader:(NSInteger)section
+{
+    if (section == 0) {
+        return 20;
+    }
+    return 100;
+}
 - (BOOL)isHorizontalScroll:(NSInteger)section
 {
     if (section == 0) {
@@ -37,22 +48,22 @@
 }
 - (NSInteger)numberOfRowsInSection:(NSInteger)section
 {
-    [self.contentView registerCell:0];
+    [self.contentView registerCell:section];
     return 1;
 }
 - (NSInteger)numberOfSections
 {
-    return 3;
+    return 2;
 }
 - (UITableViewCell *)cellTableForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    switch (indexPath.section) {
-        case SectionType_Collection:
+//    switch (indexPath.section) {
+//        case SectionType_Collection:
             return [self.contentView getCellWith:SectionType_Collection indexPath:indexPath];
-        default:
-            return [self.contentView getCellWith:SectionType_TableView indexPath:indexPath];
-    }
+//        default:
+//            return [self.contentView getCellWith:SectionType_TableView indexPath:indexPath];
+//    }
 }
 
 #pragma mark NVT_NestedProtocolTableView & NVT_NestedProtocolCollectionView

@@ -57,6 +57,33 @@
 }
 
 #pragma mark UITableViewDataSource
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    if ([self.delegate respondsToSelector:@selector(heightForHeader:)]) {
+        return [self.delegate heightForHeader:section];
+    }
+    return 20;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    
+    UILabel *myLabel = [[UILabel alloc] init];
+    CGFloat height;
+    if ([self.delegate respondsToSelector:@selector(heightForHeader:)]) {
+        height = [self.delegate heightForHeader:section];
+    }
+    else
+    {
+        height = 20;
+    }
+    myLabel.frame = CGRectMake(20, 8, self.frame.size.width - 20*2, height);
+    myLabel.font = [UIFont boldSystemFontOfSize:18];
+    myLabel.text = [self tableView:tableView titleForHeaderInSection:section];
+    myLabel.textAlignment = NSTextAlignmentCenter;
+    UIView *headerView = [[UIView alloc] init];
+    [headerView addSubview:myLabel];
+    
+    return headerView;
+}
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     return [NSString stringWithFormat:@"Section %ld", (long)section
@@ -64,13 +91,12 @@
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"%ld", (long)[self.delegate numberOfRowsInSection:section]);
     return [self.delegate numberOfRowsInSection:section];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 3;
+    return [self.delegate numberOfSections];
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -83,6 +109,10 @@
     return 300;
 }
 #pragma mark NVT_NestedProtocol
+- (PA_Treding_Model *)getModelAt:(NSIndexPath *)index
+{
+    return @"";
+}
 - (NSInteger)subCellNumberOfRowsInSection:(NSInteger)section
 {
     if ([self.delegate respondsToSelector:@selector(numberOfRowsInSection:)]) {

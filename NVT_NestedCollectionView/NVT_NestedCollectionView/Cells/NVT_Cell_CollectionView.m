@@ -7,6 +7,7 @@
 //
 
 #import "NVT_Cell_CollectionView.h"
+#import "NVT_SubCell_CollectionViewCell.h"
 @interface NVT_Cell_CollectionView() <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (weak, nonatomic) IBOutlet UICollectionView *csv_Content;
 
@@ -18,7 +19,7 @@
     [super awakeFromNib];
     self.csv_Content.delegate = self;
     self.csv_Content.dataSource = self;
-    [self.csv_Content registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
+    [self.csv_Content registerNib:[UINib nibWithNibName:@"NVT_SubCell_CollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"NVT_SubCell_CollectionViewCell"];
     
 }
 - (void)setDirectionScroll:(BOOL)type
@@ -33,7 +34,7 @@
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionViewCell *cell = [self.csv_Content dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
+    NVT_SubCell_CollectionViewCell *cell = [self.csv_Content dequeueReusableCellWithReuseIdentifier:@"NVT_SubCell_CollectionViewCell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor greenColor];
     return cell;
 }

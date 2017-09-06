@@ -27,6 +27,10 @@
 		937663301F5FA3D1008AEC50 /* PA_Treding_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376632F1F5FA3D1008AEC50 /* PA_Treding_Model.m */; };
 		9376633B1F5FA763008AEC50 /* NVT_CellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376633A1F5FA763008AEC50 /* NVT_CellBase.m */; };
 		937663401F5FFD74008AEC50 /* NVT_Nested_BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376633F1F5FFD74008AEC50 /* NVT_Nested_BaseCell.m */; };
+		B1BDFE101F604F410003C49A /* NVT_SubCell_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BDFE0E1F604F410003C49A /* NVT_SubCell_CollectionViewCell.m */; };
+		B1BDFE111F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1BDFE0F1F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib */; };
+		B1BDFE151F604F5A0003C49A /* NVT_SubCell_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BDFE131F604F5A0003C49A /* NVT_SubCell_TableViewCell.m */; };
+		B1BDFE161F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1BDFE141F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,12 @@
 		9376633A1F5FA763008AEC50 /* NVT_CellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_CellBase.m; sourceTree = "<group>"; };
 		9376633E1F5FFD74008AEC50 /* NVT_Nested_BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Nested_BaseCell.h; sourceTree = "<group>"; };
 		9376633F1F5FFD74008AEC50 /* NVT_Nested_BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Nested_BaseCell.m; sourceTree = "<group>"; };
+		B1BDFE0D1F604F410003C49A /* NVT_SubCell_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_CollectionViewCell.h; sourceTree = "<group>"; };
+		B1BDFE0E1F604F410003C49A /* NVT_SubCell_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_CollectionViewCell.m; sourceTree = "<group>"; };
+		B1BDFE0F1F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_CollectionViewCell.xib; sourceTree = "<group>"; };
+		B1BDFE121F604F5A0003C49A /* NVT_SubCell_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_TableViewCell.h; sourceTree = "<group>"; };
+		B1BDFE131F604F5A0003C49A /* NVT_SubCell_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_TableViewCell.m; sourceTree = "<group>"; };
+		B1BDFE141F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +139,15 @@
 			children = (
 				937663391F5FA763008AEC50 /* NVT_CellBase.h */,
 				9376633A1F5FA763008AEC50 /* NVT_CellBase.m */,
+				B1BDFE0D1F604F410003C49A /* NVT_SubCell_CollectionViewCell.h */,
+				B1BDFE0E1F604F410003C49A /* NVT_SubCell_CollectionViewCell.m */,
+				B1BDFE0F1F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib */,
 				937663191F5FA1BF008AEC50 /* NVT_Cell_CollectionView.h */,
 				9376631A1F5FA1BF008AEC50 /* NVT_Cell_CollectionView.m */,
 				9376631C1F5FA1CE008AEC50 /* NVT_Cell_CollectionView.xib */,
+				B1BDFE121F604F5A0003C49A /* NVT_SubCell_TableViewCell.h */,
+				B1BDFE131F604F5A0003C49A /* NVT_SubCell_TableViewCell.m */,
+				B1BDFE141F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib */,
 				9376631E1F5FA1DF008AEC50 /* NVT_Cell_TableView.h */,
 				9376631F1F5FA1DF008AEC50 /* NVT_Cell_TableView.m */,
 				937663211F5FA1F0008AEC50 /* NVT_Cell_TableView.xib */,
@@ -219,6 +235,8 @@
 				937662F91F5F9F09008AEC50 /* LaunchScreen.storyboard in Resources */,
 				9376632C1F5FA284008AEC50 /* NVT_Nested_TableCell.xib in Resources */,
 				937662F61F5F9F09008AEC50 /* Assets.xcassets in Resources */,
+				B1BDFE111F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib in Resources */,
+				B1BDFE161F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib in Resources */,
 				937663081F5FA072008AEC50 /* NVT_NestedCollectionMainView.xib in Resources */,
 				937663271F5FA264008AEC50 /* NVT_Nested_CollectionCell.xib in Resources */,
 				937662F41F5F9F09008AEC50 /* Main.storyboard in Resources */,
@@ -236,9 +254,11 @@
 				937663201F5FA1DF008AEC50 /* NVT_Cell_TableView.m in Sources */,
 				937663061F5FA067008AEC50 /* NVT_NestedCollectionMainView.m in Sources */,
 				937663301F5FA3D1008AEC50 /* PA_Treding_Model.m in Sources */,
+				B1BDFE151F604F5A0003C49A /* NVT_SubCell_TableViewCell.m in Sources */,
 				9376632B1F5FA284008AEC50 /* NVT_Nested_TableCell.m in Sources */,
 				937663401F5FFD74008AEC50 /* NVT_Nested_BaseCell.m in Sources */,
 				9376631B1F5FA1BF008AEC50 /* NVT_Cell_CollectionView.m in Sources */,
+				B1BDFE101F604F410003C49A /* NVT_SubCell_CollectionViewCell.m in Sources */,
 				937663261F5FA264008AEC50 /* NVT_Nested_CollectionCell.m in Sources */,
 				9376633B1F5FA763008AEC50 /* NVT_CellBase.m in Sources */,
 				937663031F5FA045008AEC50 /* BaseSubView.m in Sources */,
@@ -367,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NVT_NestedCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nvt.NVT-NestedCollectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NVT_NestedCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nvt.NVT-NestedCollectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -18,7 +18,7 @@
     [super awakeFromNib];
     self.tbl_Content.delegate = self;
     self.tbl_Content.dataSource = self;
-    [self.tbl_Content registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    [self.tbl_Content registerNib:[UINib nibWithNibName:@"NVT_SubCell_TableViewCell" bundle:nil] forCellReuseIdentifier:@"NVT_SubCell_TableViewCell"];
 }
 
 #pragma mark UITableViewDataSource
@@ -28,7 +28,7 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [self.tbl_Content dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [self.tbl_Content dequeueReusableCellWithIdentifier:@"NVT_SubCell_TableViewCell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor redColor];
     return cell;
 }

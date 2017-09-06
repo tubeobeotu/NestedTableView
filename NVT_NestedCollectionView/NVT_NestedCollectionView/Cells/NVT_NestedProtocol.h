@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "PA_Treding_Model.h"
 typedef enum : NSInteger{
     SectionType_Collection = 0,
     SectionType_TableView
@@ -19,9 +20,12 @@ typedef enum : NSInteger{
 - (UITableViewCell *)cellTableForRowAtIndexPath:(NSIndexPath *)indexPath;
 @optional
 - (NSInteger)numberOfSections;
+- (NSString *)title:(NSInteger)section;
+- (CGFloat)heightForHeader:(NSInteger)section;
 
 @end
 @protocol NVT_NestedProtocol <NSObject>
+- (PA_Treding_Model *)getModelAt:(NSIndexPath *)index;
 //Data
 - (NSInteger)subCellNumberOfRowsInSection:(NSInteger)section;
 @optional
