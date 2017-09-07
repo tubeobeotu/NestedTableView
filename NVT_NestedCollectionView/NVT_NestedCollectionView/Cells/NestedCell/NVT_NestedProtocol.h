@@ -13,6 +13,11 @@ typedef enum : NSInteger{
     SectionType_Collection = 0,
     SectionType_TableView
 }SectionType;
+typedef enum : NSInteger{
+    SubCell_Trending = 0,
+    SubCell_Discovery,
+    SubCell_StartTrend
+}SubCellType;
 @protocol NVT_NestedMainProtocol <NSObject>
 
 //Data
@@ -29,6 +34,8 @@ typedef enum : NSInteger{
 //Data
 - (NSInteger)subCellNumberOfRowsInSection:(NSInteger)section;
 @optional
+- (SubCellType)getSubCellType;
+- (SubCellType)getSubCellType:(NSIndexPath *)index;
 - (NSInteger)currentSection;
 - (NSInteger)subCellNumberOfSections;
 

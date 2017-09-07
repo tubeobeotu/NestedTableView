@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 #import "NVT_NestedProtocol.h"
 @interface NVT_Nested_BaseCell : UITableViewCell
-@property(assign) NSInteger section;
+@property(strong, nonatomic) NSIndexPath *indexPath;
 @end

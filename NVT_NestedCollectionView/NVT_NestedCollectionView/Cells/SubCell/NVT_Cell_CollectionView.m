@@ -35,7 +35,9 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     NVT_SubCell_CollectionViewCell *cell = [self.csv_Content dequeueReusableCellWithReuseIdentifier:@"NVT_SubCell_CollectionViewCell" forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor greenColor];
+    if ([self.delegate respondsToSelector:@selector(getSubCellType:)]) {
+        cell.type = [self.delegate getSubCellType:indexPath];
+    }
     return cell;
 }
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView

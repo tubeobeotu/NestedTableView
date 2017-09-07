@@ -11,4 +11,9 @@
 @interface PA_Treding_Model : NSObject
 @property(strong, nonatomic) NSString *name;
 @property(strong, nonatomic) NSString *imageURL;
+@property(assign) long numLike;
+@property(assign) long numDislike;
+@property(strong, nonatomic) NSArray *friends;
 @end
+
+

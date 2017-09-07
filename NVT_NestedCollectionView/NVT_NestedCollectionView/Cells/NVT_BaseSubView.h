@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface BaseSubView : UIView
+#import "PA_Treding_Model.h"
+@interface NVT_BaseSubView : UIView
 @property (nonatomic, strong) UIView *view;
+- (void)setupDataToView:(PA_Treding_Model *)model;
 @end

@@ -30,13 +30,20 @@
 
 
 #pragma mark NVT_NestedProtocolTableView
+- (SubCellType)getSubCellType:(NSIndexPath *)index
+{
+    if ([self.delegate respondsToSelector:@selector(getSubCellType:)]) {
+        return [self.delegate getSubCellType:[NSIndexPath indexPathForRow:index.row inSection:self.indexPath.section]];
+    }
+    return SubCell_StartTrend;
+}
 - (PA_Treding_Model *)getModelAt:(NSIndexPath *)index
 {
     return [self.delegate getModelAt:index];
 }
 - (NSInteger)currentSection
 {
-    return self.section;
+    return self.indexPath.section;
 }
 - (NSInteger)subCellNumberOfRowsInSection:(NSInteger)section
 {

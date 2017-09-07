@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseSubView.h"
+#import "NVT_BaseSubView.h"
 #import "NVT_NestedProtocol.h"
-@interface NVT_NestedCollectionMainView : BaseSubView
+@interface NVT_NestedCollectionMainView : NVT_BaseSubView
 @property(weak, nonatomic) id delegate;
 @property (weak, nonatomic) IBOutlet UITableView *tbl_Content;
 - (void)registerCell:(SectionType)type;

@@ -39,7 +39,7 @@
         case SectionType_Collection:
         {
             NVT_Nested_CollectionCell *cell = [self.tbl_Content dequeueReusableCellWithIdentifier:@"NVT_Nested_CollectionCell" forIndexPath:indexPath];
-            cell.section = indexPath.section;
+            cell.indexPath = indexPath;
             cell.delegate = self;
             
             return cell;
@@ -48,7 +48,7 @@
         default:
         {
             NVT_Nested_TableCell *cell = [self.tbl_Content dequeueReusableCellWithIdentifier:@"NVT_Nested_TableCell" forIndexPath:indexPath];
-            cell.section = indexPath.section;
+            cell.indexPath = indexPath;
             cell.delegate = self;
             return cell;
         }
@@ -86,8 +86,10 @@
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return [NSString stringWithFormat:@"Section %ld", (long)section
-            ];
+    if ([self.delegate respondsToSelector:@selector(title:)]) {
+        return [self.delegate title:section];
+    }
+    return @"";
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -109,6 +111,13 @@
     return 300;
 }
 #pragma mark NVT_NestedProtocol
+- (SubCellType)getSubCellType:(NSIndexPath *)index
+{
+    if ([self.delegate respondsToSelector:@selector(getSubCellType:)]) {
+        return [self.delegate getSubCellType:index];
+    }
+    return SubCell_StartTrend;
+}
 - (PA_Treding_Model *)getModelAt:(NSIndexPath *)index
 {
     return [self.delegate getModelAt:index];

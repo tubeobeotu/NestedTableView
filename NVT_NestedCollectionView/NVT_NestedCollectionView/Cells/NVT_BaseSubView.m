@@ -6,9 +6,9 @@
 //  Copyright © 2017 Nguyen Thanh Huy. All rights reserved.
 //
 
-#import "BaseSubView.h"
+#import "NVT_BaseSubView.h"
 
-@implementation BaseSubView
+@implementation NVT_BaseSubView
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];

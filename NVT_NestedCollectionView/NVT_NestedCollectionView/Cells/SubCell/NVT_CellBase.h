@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseSubView.h"
+#import "NVT_BaseSubView.h"
 #import "NVT_NestedProtocol.h"
-@interface NVT_CellBase : BaseSubView
+@interface NVT_CellBase : NVT_BaseSubView
 
 @end

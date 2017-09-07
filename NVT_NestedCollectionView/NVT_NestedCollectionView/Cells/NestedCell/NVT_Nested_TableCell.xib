@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,9 +20,10 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORk-wB-Rbj" customClass="NVT_Cell_TableView">
                         <rect key="frame" x="8" y="8" width="304" height="153.5"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstAttribute="trailingMargin" secondItem="ORk-wB-Rbj" secondAttribute="trailing" id="8oR-Gv-us1"/>
                     <constraint firstItem="ORk-wB-Rbj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="o4U-R0-FU1"/>
@@ -31,6 +31,7 @@
                     <constraint firstAttribute="bottomMargin" secondItem="ORk-wB-Rbj" secondAttribute="bottom" id="vdT-09-sB3"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="containerView" destination="ORk-wB-Rbj" id="DQo-VW-UVD"/>
             </connections>

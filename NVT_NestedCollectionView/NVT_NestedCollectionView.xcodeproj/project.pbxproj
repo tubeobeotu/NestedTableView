@@ -13,24 +13,30 @@
 		937662F41F5F9F09008AEC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937662F21F5F9F09008AEC50 /* Main.storyboard */; };
 		937662F61F5F9F09008AEC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937662F51F5F9F09008AEC50 /* Assets.xcassets */; };
 		937662F91F5F9F09008AEC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937662F71F5F9F09008AEC50 /* LaunchScreen.storyboard */; };
-		937663031F5FA045008AEC50 /* BaseSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663021F5FA045008AEC50 /* BaseSubView.m */; };
-		937663061F5FA067008AEC50 /* NVT_NestedCollectionMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663051F5FA067008AEC50 /* NVT_NestedCollectionMainView.m */; };
-		937663081F5FA072008AEC50 /* NVT_NestedCollectionMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663071F5FA072008AEC50 /* NVT_NestedCollectionMainView.xib */; };
-		9376631B1F5FA1BF008AEC50 /* NVT_Cell_CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376631A1F5FA1BF008AEC50 /* NVT_Cell_CollectionView.m */; };
-		9376631D1F5FA1CE008AEC50 /* NVT_Cell_CollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9376631C1F5FA1CE008AEC50 /* NVT_Cell_CollectionView.xib */; };
-		937663201F5FA1DF008AEC50 /* NVT_Cell_TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376631F1F5FA1DF008AEC50 /* NVT_Cell_TableView.m */; };
-		937663221F5FA1F0008AEC50 /* NVT_Cell_TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663211F5FA1F0008AEC50 /* NVT_Cell_TableView.xib */; };
-		937663261F5FA264008AEC50 /* NVT_Nested_CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663241F5FA264008AEC50 /* NVT_Nested_CollectionCell.m */; };
-		937663271F5FA264008AEC50 /* NVT_Nested_CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663251F5FA264008AEC50 /* NVT_Nested_CollectionCell.xib */; };
-		9376632B1F5FA284008AEC50 /* NVT_Nested_TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663291F5FA284008AEC50 /* NVT_Nested_TableCell.m */; };
-		9376632C1F5FA284008AEC50 /* NVT_Nested_TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9376632A1F5FA284008AEC50 /* NVT_Nested_TableCell.xib */; };
 		937663301F5FA3D1008AEC50 /* PA_Treding_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376632F1F5FA3D1008AEC50 /* PA_Treding_Model.m */; };
-		9376633B1F5FA763008AEC50 /* NVT_CellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376633A1F5FA763008AEC50 /* NVT_CellBase.m */; };
-		937663401F5FFD74008AEC50 /* NVT_Nested_BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376633F1F5FFD74008AEC50 /* NVT_Nested_BaseCell.m */; };
-		B1BDFE101F604F410003C49A /* NVT_SubCell_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BDFE0E1F604F410003C49A /* NVT_SubCell_CollectionViewCell.m */; };
-		B1BDFE111F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1BDFE0F1F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib */; };
-		B1BDFE151F604F5A0003C49A /* NVT_SubCell_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BDFE131F604F5A0003C49A /* NVT_SubCell_TableViewCell.m */; };
-		B1BDFE161F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1BDFE141F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib */; };
+		9376638A1F60E893008AEC50 /* NVT_Nested_BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376636F1F60E893008AEC50 /* NVT_Nested_BaseCell.m */; };
+		9376638B1F60E893008AEC50 /* NVT_Nested_CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663711F60E893008AEC50 /* NVT_Nested_CollectionCell.m */; };
+		9376638C1F60E893008AEC50 /* NVT_Nested_CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663721F60E893008AEC50 /* NVT_Nested_CollectionCell.xib */; };
+		9376638D1F60E893008AEC50 /* NVT_Nested_TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663741F60E893008AEC50 /* NVT_Nested_TableCell.m */; };
+		9376638E1F60E893008AEC50 /* NVT_Nested_TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663751F60E893008AEC50 /* NVT_Nested_TableCell.xib */; };
+		9376638F1F60E893008AEC50 /* NVT_Cell_CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663791F60E893008AEC50 /* NVT_Cell_CollectionView.m */; };
+		937663901F60E893008AEC50 /* NVT_Cell_CollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9376637A1F60E893008AEC50 /* NVT_Cell_CollectionView.xib */; };
+		937663911F60E893008AEC50 /* NVT_Cell_TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376637C1F60E893008AEC50 /* NVT_Cell_TableView.m */; };
+		937663921F60E893008AEC50 /* NVT_Cell_TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9376637D1F60E893008AEC50 /* NVT_Cell_TableView.xib */; };
+		937663931F60E893008AEC50 /* NVT_CellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376637F1F60E893008AEC50 /* NVT_CellBase.m */; };
+		937663941F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663811F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.m */; };
+		937663951F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663821F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.xib */; };
+		937663961F60E893008AEC50 /* NVT_SubCell_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663841F60E893008AEC50 /* NVT_SubCell_TableViewCell.m */; };
+		937663971F60E893008AEC50 /* NVT_SubCell_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663851F60E893008AEC50 /* NVT_SubCell_TableViewCell.xib */; };
+		937663981F60E893008AEC50 /* NVT_SubCell_Trending.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663881F60E893008AEC50 /* NVT_SubCell_Trending.m */; };
+		937663991F60E893008AEC50 /* NVT_SubCell_Trending.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663891F60E893008AEC50 /* NVT_SubCell_Trending.xib */; };
+		9376639F1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376639D1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.m */; };
+		937663A01F60E8C1008AEC50 /* NVT_NestedCollectionMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9376639E1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.xib */; };
+		937663A31F60E8DF008AEC50 /* NVT_SubCell_Discovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663A21F60E8DF008AEC50 /* NVT_SubCell_Discovery.m */; };
+		937663A51F60E8E7008AEC50 /* NVT_SubCell_Discovery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663A41F60E8E7008AEC50 /* NVT_SubCell_Discovery.xib */; };
+		937663A81F60E92E008AEC50 /* NVT_BaseSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663A71F60E92E008AEC50 /* NVT_BaseSubView.m */; };
+		937663AB1F60FD8C008AEC50 /* NVT_SubView_StartTrend.m in Sources */ = {isa = PBXBuildFile; fileRef = 937663AA1F60FD8C008AEC50 /* NVT_SubView_StartTrend.m */; };
+		937663AD1F60FD96008AEC50 /* NVT_SubView_StartTrend.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937663AC1F60FD96008AEC50 /* NVT_SubView_StartTrend.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,36 +50,45 @@
 		937662F51F5F9F09008AEC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937662F81F5F9F09008AEC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937662FA1F5F9F09008AEC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		937663011F5FA045008AEC50 /* BaseSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSubView.h; sourceTree = "<group>"; };
-		937663021F5FA045008AEC50 /* BaseSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSubView.m; sourceTree = "<group>"; };
-		937663041F5FA067008AEC50 /* NVT_NestedCollectionMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_NestedCollectionMainView.h; sourceTree = "<group>"; };
-		937663051F5FA067008AEC50 /* NVT_NestedCollectionMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_NestedCollectionMainView.m; sourceTree = "<group>"; };
-		937663071F5FA072008AEC50 /* NVT_NestedCollectionMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_NestedCollectionMainView.xib; sourceTree = "<group>"; };
-		937663191F5FA1BF008AEC50 /* NVT_Cell_CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Cell_CollectionView.h; sourceTree = "<group>"; };
-		9376631A1F5FA1BF008AEC50 /* NVT_Cell_CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Cell_CollectionView.m; sourceTree = "<group>"; };
-		9376631C1F5FA1CE008AEC50 /* NVT_Cell_CollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Cell_CollectionView.xib; sourceTree = "<group>"; };
-		9376631E1F5FA1DF008AEC50 /* NVT_Cell_TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Cell_TableView.h; sourceTree = "<group>"; };
-		9376631F1F5FA1DF008AEC50 /* NVT_Cell_TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Cell_TableView.m; sourceTree = "<group>"; };
-		937663211F5FA1F0008AEC50 /* NVT_Cell_TableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Cell_TableView.xib; sourceTree = "<group>"; };
-		937663231F5FA264008AEC50 /* NVT_Nested_CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Nested_CollectionCell.h; sourceTree = "<group>"; };
-		937663241F5FA264008AEC50 /* NVT_Nested_CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Nested_CollectionCell.m; sourceTree = "<group>"; };
-		937663251F5FA264008AEC50 /* NVT_Nested_CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Nested_CollectionCell.xib; sourceTree = "<group>"; };
-		937663281F5FA284008AEC50 /* NVT_Nested_TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Nested_TableCell.h; sourceTree = "<group>"; };
-		937663291F5FA284008AEC50 /* NVT_Nested_TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Nested_TableCell.m; sourceTree = "<group>"; };
-		9376632A1F5FA284008AEC50 /* NVT_Nested_TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Nested_TableCell.xib; sourceTree = "<group>"; };
 		9376632E1F5FA3D1008AEC50 /* PA_Treding_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PA_Treding_Model.h; sourceTree = "<group>"; };
 		9376632F1F5FA3D1008AEC50 /* PA_Treding_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PA_Treding_Model.m; sourceTree = "<group>"; };
-		937663361F5FA62E008AEC50 /* NVT_NestedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_NestedProtocol.h; sourceTree = "<group>"; };
-		937663391F5FA763008AEC50 /* NVT_CellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_CellBase.h; sourceTree = "<group>"; };
-		9376633A1F5FA763008AEC50 /* NVT_CellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_CellBase.m; sourceTree = "<group>"; };
-		9376633E1F5FFD74008AEC50 /* NVT_Nested_BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Nested_BaseCell.h; sourceTree = "<group>"; };
-		9376633F1F5FFD74008AEC50 /* NVT_Nested_BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Nested_BaseCell.m; sourceTree = "<group>"; };
-		B1BDFE0D1F604F410003C49A /* NVT_SubCell_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_CollectionViewCell.h; sourceTree = "<group>"; };
-		B1BDFE0E1F604F410003C49A /* NVT_SubCell_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_CollectionViewCell.m; sourceTree = "<group>"; };
-		B1BDFE0F1F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_CollectionViewCell.xib; sourceTree = "<group>"; };
-		B1BDFE121F604F5A0003C49A /* NVT_SubCell_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_TableViewCell.h; sourceTree = "<group>"; };
-		B1BDFE131F604F5A0003C49A /* NVT_SubCell_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_TableViewCell.m; sourceTree = "<group>"; };
-		B1BDFE141F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_TableViewCell.xib; sourceTree = "<group>"; };
+		9376636E1F60E893008AEC50 /* NVT_Nested_BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Nested_BaseCell.h; sourceTree = "<group>"; };
+		9376636F1F60E893008AEC50 /* NVT_Nested_BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Nested_BaseCell.m; sourceTree = "<group>"; };
+		937663701F60E893008AEC50 /* NVT_Nested_CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Nested_CollectionCell.h; sourceTree = "<group>"; };
+		937663711F60E893008AEC50 /* NVT_Nested_CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Nested_CollectionCell.m; sourceTree = "<group>"; };
+		937663721F60E893008AEC50 /* NVT_Nested_CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Nested_CollectionCell.xib; sourceTree = "<group>"; };
+		937663731F60E893008AEC50 /* NVT_Nested_TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Nested_TableCell.h; sourceTree = "<group>"; };
+		937663741F60E893008AEC50 /* NVT_Nested_TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Nested_TableCell.m; sourceTree = "<group>"; };
+		937663751F60E893008AEC50 /* NVT_Nested_TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Nested_TableCell.xib; sourceTree = "<group>"; };
+		937663761F60E893008AEC50 /* NVT_NestedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_NestedProtocol.h; sourceTree = "<group>"; };
+		937663781F60E893008AEC50 /* NVT_Cell_CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Cell_CollectionView.h; sourceTree = "<group>"; };
+		937663791F60E893008AEC50 /* NVT_Cell_CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Cell_CollectionView.m; sourceTree = "<group>"; };
+		9376637A1F60E893008AEC50 /* NVT_Cell_CollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Cell_CollectionView.xib; sourceTree = "<group>"; };
+		9376637B1F60E893008AEC50 /* NVT_Cell_TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_Cell_TableView.h; sourceTree = "<group>"; };
+		9376637C1F60E893008AEC50 /* NVT_Cell_TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_Cell_TableView.m; sourceTree = "<group>"; };
+		9376637D1F60E893008AEC50 /* NVT_Cell_TableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_Cell_TableView.xib; sourceTree = "<group>"; };
+		9376637E1F60E893008AEC50 /* NVT_CellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_CellBase.h; sourceTree = "<group>"; };
+		9376637F1F60E893008AEC50 /* NVT_CellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_CellBase.m; sourceTree = "<group>"; };
+		937663801F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_CollectionViewCell.h; sourceTree = "<group>"; };
+		937663811F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_CollectionViewCell.m; sourceTree = "<group>"; };
+		937663821F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_CollectionViewCell.xib; sourceTree = "<group>"; };
+		937663831F60E893008AEC50 /* NVT_SubCell_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_TableViewCell.h; sourceTree = "<group>"; };
+		937663841F60E893008AEC50 /* NVT_SubCell_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_TableViewCell.m; sourceTree = "<group>"; };
+		937663851F60E893008AEC50 /* NVT_SubCell_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_TableViewCell.xib; sourceTree = "<group>"; };
+		937663871F60E893008AEC50 /* NVT_SubCell_Trending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_Trending.h; sourceTree = "<group>"; };
+		937663881F60E893008AEC50 /* NVT_SubCell_Trending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_Trending.m; sourceTree = "<group>"; };
+		937663891F60E893008AEC50 /* NVT_SubCell_Trending.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_Trending.xib; sourceTree = "<group>"; };
+		9376639C1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_NestedCollectionMainView.h; sourceTree = "<group>"; };
+		9376639D1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_NestedCollectionMainView.m; sourceTree = "<group>"; };
+		9376639E1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_NestedCollectionMainView.xib; sourceTree = "<group>"; };
+		937663A11F60E8DF008AEC50 /* NVT_SubCell_Discovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubCell_Discovery.h; sourceTree = "<group>"; };
+		937663A21F60E8DF008AEC50 /* NVT_SubCell_Discovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubCell_Discovery.m; sourceTree = "<group>"; };
+		937663A41F60E8E7008AEC50 /* NVT_SubCell_Discovery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubCell_Discovery.xib; sourceTree = "<group>"; };
+		937663A61F60E92E008AEC50 /* NVT_BaseSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_BaseSubView.h; sourceTree = "<group>"; };
+		937663A71F60E92E008AEC50 /* NVT_BaseSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_BaseSubView.m; sourceTree = "<group>"; };
+		937663A91F60FD8C008AEC50 /* NVT_SubView_StartTrend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVT_SubView_StartTrend.h; sourceTree = "<group>"; };
+		937663AA1F60FD8C008AEC50 /* NVT_SubView_StartTrend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVT_SubView_StartTrend.m; sourceTree = "<group>"; };
+		937663AC1F60FD96008AEC50 /* NVT_SubView_StartTrend.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NVT_SubView_StartTrend.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +121,9 @@
 		937662E81F5F9F09008AEC50 /* NVT_NestedCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				9376639B1F60E8C1008AEC50 /* Main */,
 				9376632D1F5FA3BC008AEC50 /* Model */,
 				937663091F5FA0C6008AEC50 /* Cells */,
-				937663041F5FA067008AEC50 /* NVT_NestedCollectionMainView.h */,
-				937663051F5FA067008AEC50 /* NVT_NestedCollectionMainView.m */,
-				937663071F5FA072008AEC50 /* NVT_NestedCollectionMainView.xib */,
-				937663011F5FA045008AEC50 /* BaseSubView.h */,
-				937663021F5FA045008AEC50 /* BaseSubView.m */,
 				937662EC1F5F9F09008AEC50 /* AppDelegate.h */,
 				937662ED1F5F9F09008AEC50 /* AppDelegate.m */,
 				937662EF1F5F9F09008AEC50 /* ViewController.h */,
@@ -137,29 +148,10 @@
 		937663091F5FA0C6008AEC50 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				937663391F5FA763008AEC50 /* NVT_CellBase.h */,
-				9376633A1F5FA763008AEC50 /* NVT_CellBase.m */,
-				B1BDFE0D1F604F410003C49A /* NVT_SubCell_CollectionViewCell.h */,
-				B1BDFE0E1F604F410003C49A /* NVT_SubCell_CollectionViewCell.m */,
-				B1BDFE0F1F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib */,
-				937663191F5FA1BF008AEC50 /* NVT_Cell_CollectionView.h */,
-				9376631A1F5FA1BF008AEC50 /* NVT_Cell_CollectionView.m */,
-				9376631C1F5FA1CE008AEC50 /* NVT_Cell_CollectionView.xib */,
-				B1BDFE121F604F5A0003C49A /* NVT_SubCell_TableViewCell.h */,
-				B1BDFE131F604F5A0003C49A /* NVT_SubCell_TableViewCell.m */,
-				B1BDFE141F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib */,
-				9376631E1F5FA1DF008AEC50 /* NVT_Cell_TableView.h */,
-				9376631F1F5FA1DF008AEC50 /* NVT_Cell_TableView.m */,
-				937663211F5FA1F0008AEC50 /* NVT_Cell_TableView.xib */,
-				9376633E1F5FFD74008AEC50 /* NVT_Nested_BaseCell.h */,
-				9376633F1F5FFD74008AEC50 /* NVT_Nested_BaseCell.m */,
-				937663231F5FA264008AEC50 /* NVT_Nested_CollectionCell.h */,
-				937663241F5FA264008AEC50 /* NVT_Nested_CollectionCell.m */,
-				937663251F5FA264008AEC50 /* NVT_Nested_CollectionCell.xib */,
-				937663281F5FA284008AEC50 /* NVT_Nested_TableCell.h */,
-				937663291F5FA284008AEC50 /* NVT_Nested_TableCell.m */,
-				9376632A1F5FA284008AEC50 /* NVT_Nested_TableCell.xib */,
-				937663361F5FA62E008AEC50 /* NVT_NestedProtocol.h */,
+				937663A61F60E92E008AEC50 /* NVT_BaseSubView.h */,
+				937663A71F60E92E008AEC50 /* NVT_BaseSubView.m */,
+				9376636D1F60E893008AEC50 /* NestedCell */,
+				937663771F60E893008AEC50 /* SubCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -171,6 +163,70 @@
 				9376632F1F5FA3D1008AEC50 /* PA_Treding_Model.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9376636D1F60E893008AEC50 /* NestedCell */ = {
+			isa = PBXGroup;
+			children = (
+				9376636E1F60E893008AEC50 /* NVT_Nested_BaseCell.h */,
+				9376636F1F60E893008AEC50 /* NVT_Nested_BaseCell.m */,
+				937663701F60E893008AEC50 /* NVT_Nested_CollectionCell.h */,
+				937663711F60E893008AEC50 /* NVT_Nested_CollectionCell.m */,
+				937663721F60E893008AEC50 /* NVT_Nested_CollectionCell.xib */,
+				937663731F60E893008AEC50 /* NVT_Nested_TableCell.h */,
+				937663741F60E893008AEC50 /* NVT_Nested_TableCell.m */,
+				937663751F60E893008AEC50 /* NVT_Nested_TableCell.xib */,
+				937663761F60E893008AEC50 /* NVT_NestedProtocol.h */,
+			);
+			path = NestedCell;
+			sourceTree = "<group>";
+		};
+		937663771F60E893008AEC50 /* SubCell */ = {
+			isa = PBXGroup;
+			children = (
+				937663781F60E893008AEC50 /* NVT_Cell_CollectionView.h */,
+				937663791F60E893008AEC50 /* NVT_Cell_CollectionView.m */,
+				9376637A1F60E893008AEC50 /* NVT_Cell_CollectionView.xib */,
+				9376637B1F60E893008AEC50 /* NVT_Cell_TableView.h */,
+				9376637C1F60E893008AEC50 /* NVT_Cell_TableView.m */,
+				9376637D1F60E893008AEC50 /* NVT_Cell_TableView.xib */,
+				9376637E1F60E893008AEC50 /* NVT_CellBase.h */,
+				9376637F1F60E893008AEC50 /* NVT_CellBase.m */,
+				937663801F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.h */,
+				937663811F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.m */,
+				937663821F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.xib */,
+				937663831F60E893008AEC50 /* NVT_SubCell_TableViewCell.h */,
+				937663841F60E893008AEC50 /* NVT_SubCell_TableViewCell.m */,
+				937663851F60E893008AEC50 /* NVT_SubCell_TableViewCell.xib */,
+				937663861F60E893008AEC50 /* SubCell_View */,
+			);
+			path = SubCell;
+			sourceTree = "<group>";
+		};
+		937663861F60E893008AEC50 /* SubCell_View */ = {
+			isa = PBXGroup;
+			children = (
+				937663871F60E893008AEC50 /* NVT_SubCell_Trending.h */,
+				937663881F60E893008AEC50 /* NVT_SubCell_Trending.m */,
+				937663891F60E893008AEC50 /* NVT_SubCell_Trending.xib */,
+				937663A11F60E8DF008AEC50 /* NVT_SubCell_Discovery.h */,
+				937663A21F60E8DF008AEC50 /* NVT_SubCell_Discovery.m */,
+				937663A41F60E8E7008AEC50 /* NVT_SubCell_Discovery.xib */,
+				937663A91F60FD8C008AEC50 /* NVT_SubView_StartTrend.h */,
+				937663AA1F60FD8C008AEC50 /* NVT_SubView_StartTrend.m */,
+				937663AC1F60FD96008AEC50 /* NVT_SubView_StartTrend.xib */,
+			);
+			path = SubCell_View;
+			sourceTree = "<group>";
+		};
+		9376639B1F60E8C1008AEC50 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9376639C1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.h */,
+				9376639D1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.m */,
+				9376639E1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.xib */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,16 +287,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9376631D1F5FA1CE008AEC50 /* NVT_Cell_CollectionView.xib in Resources */,
+				937663921F60E893008AEC50 /* NVT_Cell_TableView.xib in Resources */,
+				937663A01F60E8C1008AEC50 /* NVT_NestedCollectionMainView.xib in Resources */,
 				937662F91F5F9F09008AEC50 /* LaunchScreen.storyboard in Resources */,
-				9376632C1F5FA284008AEC50 /* NVT_Nested_TableCell.xib in Resources */,
 				937662F61F5F9F09008AEC50 /* Assets.xcassets in Resources */,
-				B1BDFE111F604F410003C49A /* NVT_SubCell_CollectionViewCell.xib in Resources */,
-				B1BDFE161F604F5A0003C49A /* NVT_SubCell_TableViewCell.xib in Resources */,
-				937663081F5FA072008AEC50 /* NVT_NestedCollectionMainView.xib in Resources */,
-				937663271F5FA264008AEC50 /* NVT_Nested_CollectionCell.xib in Resources */,
+				937663901F60E893008AEC50 /* NVT_Cell_CollectionView.xib in Resources */,
+				937663951F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.xib in Resources */,
+				937663971F60E893008AEC50 /* NVT_SubCell_TableViewCell.xib in Resources */,
+				937663991F60E893008AEC50 /* NVT_SubCell_Trending.xib in Resources */,
+				9376638E1F60E893008AEC50 /* NVT_Nested_TableCell.xib in Resources */,
+				9376638C1F60E893008AEC50 /* NVT_Nested_CollectionCell.xib in Resources */,
+				937663A51F60E8E7008AEC50 /* NVT_SubCell_Discovery.xib in Resources */,
+				937663AD1F60FD96008AEC50 /* NVT_SubView_StartTrend.xib in Resources */,
 				937662F41F5F9F09008AEC50 /* Main.storyboard in Resources */,
-				937663221F5FA1F0008AEC50 /* NVT_Cell_TableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,20 +310,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937663201F5FA1DF008AEC50 /* NVT_Cell_TableView.m in Sources */,
-				937663061F5FA067008AEC50 /* NVT_NestedCollectionMainView.m in Sources */,
+				9376638A1F60E893008AEC50 /* NVT_Nested_BaseCell.m in Sources */,
+				9376638F1F60E893008AEC50 /* NVT_Cell_CollectionView.m in Sources */,
+				937663911F60E893008AEC50 /* NVT_Cell_TableView.m in Sources */,
+				937663A81F60E92E008AEC50 /* NVT_BaseSubView.m in Sources */,
+				937663961F60E893008AEC50 /* NVT_SubCell_TableViewCell.m in Sources */,
+				937663981F60E893008AEC50 /* NVT_SubCell_Trending.m in Sources */,
+				9376639F1F60E8C1008AEC50 /* NVT_NestedCollectionMainView.m in Sources */,
+				9376638D1F60E893008AEC50 /* NVT_Nested_TableCell.m in Sources */,
 				937663301F5FA3D1008AEC50 /* PA_Treding_Model.m in Sources */,
-				B1BDFE151F604F5A0003C49A /* NVT_SubCell_TableViewCell.m in Sources */,
-				9376632B1F5FA284008AEC50 /* NVT_Nested_TableCell.m in Sources */,
-				937663401F5FFD74008AEC50 /* NVT_Nested_BaseCell.m in Sources */,
-				9376631B1F5FA1BF008AEC50 /* NVT_Cell_CollectionView.m in Sources */,
-				B1BDFE101F604F410003C49A /* NVT_SubCell_CollectionViewCell.m in Sources */,
-				937663261F5FA264008AEC50 /* NVT_Nested_CollectionCell.m in Sources */,
-				9376633B1F5FA763008AEC50 /* NVT_CellBase.m in Sources */,
-				937663031F5FA045008AEC50 /* BaseSubView.m in Sources */,
+				937663941F60E893008AEC50 /* NVT_SubCell_CollectionViewCell.m in Sources */,
+				9376638B1F60E893008AEC50 /* NVT_Nested_CollectionCell.m in Sources */,
+				937663A31F60E8DF008AEC50 /* NVT_SubCell_Discovery.m in Sources */,
 				937662F11F5F9F09008AEC50 /* ViewController.m in Sources */,
 				937662EE1F5F9F09008AEC50 /* AppDelegate.m in Sources */,
+				937663AB1F60FD8C008AEC50 /* NVT_SubView_StartTrend.m in Sources */,
 				937662EB1F5F9F09008AEC50 /* main.m in Sources */,
+				937663931F60E893008AEC50 /* NVT_CellBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "NVT_Cell_TableView.h"
+#import "NVT_SubCell_TableViewCell.h"
 @interface NVT_Cell_TableView() <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tbl_Content;
 
@@ -28,8 +29,10 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [self.tbl_Content dequeueReusableCellWithIdentifier:@"NVT_SubCell_TableViewCell" forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor redColor];
+    NVT_SubCell_TableViewCell *cell = [self.tbl_Content dequeueReusableCellWithIdentifier:@"NVT_SubCell_TableViewCell" forIndexPath:indexPath];
+    if ([self.delegate respondsToSelector:@selector(getSubCellType:)]) {
+        cell.type = [self.delegate getSubCellType:indexPath];
+    }
     return cell;
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
